@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.wrapper {
+    width: 800px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 30px 15px;
+    border: 1px solid gray;
+    text-align: center;
+    border-radius: 5px;
+    background-color: aqua;
+}
+
+input {
+    padding: 5px;
+}
+
+.todos-container {
+    height: 95%;
+    display: flex;
+    margin-top: 30px;
+}
+
+.todos-cont {
+    flex: 2;
+    overflow: auto;
+    padding: 10px;
+    height: 100%;
+}
+
+.edit-todo-cont {
+    flex: 1;
+    padding: 5px;
+    padding-top: 100px;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn  {
+    padding: 5px 10px;
+    background-color: lightgreen;
+    border-radius: 8px;
+    border-color: gray;
+}
+
+.btn-delete {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 0 4px;
+}
+
+.btn-complete {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+li {
+    list-style: none;
+    text-align: left;
+}
+
+.single-todo { 
+    position: relative;
+    padding: 30px 15px;
+    border: 1px solid #909090;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 102);
+    width: 100%;
+}
+
+.single-todo-active {
+    outline: 3px solid coral;    
+}
+.single-todo + .single-todo {
+    margin-top: 10px;
+}
+
+.completed-todo {
+    background-color: rgb(163, 241, 163);
+}
+
+.inp-edit {
+    margin-bottom: 15px;
+}
+
+.inp-edit:first-of-type {
+    margin-top: 15px;
+}
