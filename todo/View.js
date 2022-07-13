@@ -31,7 +31,7 @@ class TodoView {
                         <div class="todos-cont"></div>
                         <div class="edit-todo-cont">
                             <div class="edit-todo hidden">
-                            <h2>Edit Todo:</h2>
+                                <h2>Edit Todo:</h2>
                                 <input placeholder="todo title" type="text" class="inp-edit inp-edit-todo-title">
                                 <input placeholder="todo body" type="text" class="inp-edit inp-edit-todo-body">
                                 <button type="button" class="btn btn-save-changes">Save changes</button>    
